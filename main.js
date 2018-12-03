@@ -24,10 +24,6 @@ function compare(l1, l2) {
   return true;
 }
 
-function compareImmutable(l1, l2) {
-  return Immutable.is(l1, l2);
-}
-
 function compareMany(l1, l2) {
   let result = false;
 
